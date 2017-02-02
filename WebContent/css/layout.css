@@ -1,0 +1,65 @@
+@CHARSET "ISO-8859-1";
+
+.barWidth{
+	width:30%;
+	height: 20px;
+	-webkit-animation: move 2s linear infinite;
+	-webkit-transition :  0.5s ease;
+	transition: 0.5s ease;
+	
+}
+/* progress {
+  text-align: center;
+  height: 1.5em;
+  width: 50%;
+  -webkit-appearance: none;
+  border: none;
+  
+  Set the progressbar to relative
+  position:relative;
+}
+progress:before {
+  content: attr(data-label);
+  font-size: 1.0em;
+  vertical-align: 0;
+  
+  Position text over the progress bar
+  position:absolute;
+  left:0;
+  right:0;
+} */
+/* progress::-webkit-progress-bar {
+  background-color: #c9c9c9;
+}
+progress::-webkit-progress-value {
+  background-color: #7cc4ff;
+}
+progress::-moz-progress-bar {
+  background-color: #7cc4ff;
+} */
+
+
+
+.initialBar {
+    position: relative;
+    width: 30%;
+    height: 30px;
+    background-color: #c9c9c9;
+}
+.initialProgressBar {
+    position: absolute;
+    height: 100%;
+    background-color:#7cc4ff;
+}
+.initialProgressBarColour {
+    background-color: #7cc4ff;
+}
+.exceededMaxValue{
+	background-color: red;
+}
+.progressValue{
+	position:absolute;
+	text-align:center;
+	z-index:1;
+}
+/*#ff0080*/
