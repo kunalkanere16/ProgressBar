@@ -11,3 +11,8 @@
 1. Mocha and Chai are used for TDD
 2. Test cases can be found in ProgressBar/test/test.js
 3. To view the test results run: http://{your tomcat url}/ProgressBar/test/testRunner.html
+
+###Tested browsers
+1. IE 11.0.38
+2. Chrome 55.0.xx
+3. Firefox 47.0.2
