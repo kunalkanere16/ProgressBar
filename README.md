@@ -2,13 +2,12 @@
 ###Dynamic progress bar with dynamic control buttons
 
 ###How to run the project
-This is static web project
-Tested on Apache Tomcat 7.0.59
-Import the project in Eclipse or any other IDE
-Export as war file and deploy in Tomcat
-Then access from URL: http://{your tomcat url}/ProgressBar/mypages/progress.html
+1. This is static web project tested on Apache Tomcat 7.0.59.
+2. Import the project in Eclipse or any other IDE
+3. Export as war file and deploy in Tomcat
+4. Then access from URL: http://{your tomcat url}/ProgressBar/mypages/progress.html
 
 ###TDD
-Mocha and Chai are used for TDD
-Test cases can be found in ProgressBar/test/test.js
-To view the test results run: http://{your tomcat url}/ProgressBar/test/testRunner.html
+1. Mocha and Chai are used for TDD
+2. Test cases can be found in ProgressBar/test/test.js
+3. To view the test results run: http://{your tomcat url}/ProgressBar/test/testRunner.html
